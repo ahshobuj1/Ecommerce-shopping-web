@@ -1,0 +1,340 @@
+@media screen and (max-width: 799px) {
+    #header {
+        position: relative;
+        justify-content: flex-start;
+        padding-left: 50px;
+        position: fixed;
+    }
+    .header_nav {
+        position: absolute;
+        right: -300px;
+        top: 0;
+        transition: all 0.5s;
+        z-index: 20;
+    }
+    .header_nav ul {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background: #fff;
+        padding-top: 100px;
+        height: 113.2vh;
+        width: 200px;
+    }
+    .menubar_active {
+        right: 0px;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    #close_menu {
+        display: initial;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding: 7px;
+        color: #eb0b0b;
+        font-size: 20px;
+        border-bottom-right-radius: 15px;
+        background-color: #e7dccc;
+    }
+    .header_nav li {
+        padding: 10px 10px;
+        text-align: center;
+        position: relative;
+    }
+    .header_nav li a {
+        color: #000000c9;
+        font-size: 1rem;
+    }
+    .header_nav li a:hover {
+        color: #eb0b0b;
+    }
+    .header_nav li a.active {
+        color: #eb0b0b;
+    }
+    .last_card {
+        display: none;
+    }
+    .menu_var {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+    #menu_res {
+        color: #f8f4f4;
+        font-size: 1.7rem;
+        transition: all 0.3s;
+    }
+    #menu_res:hover {
+        color: red;
+    }
+    .menu_var i {
+        font-size: 1.5rem;
+        margin: 0 20px;
+    }
+
+    #hero h2 {
+        font-size: 2.5rem;
+    }
+    #hero h1 {
+        font-size: 3.3rem;
+    }
+
+    #feature {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .product_card {
+        padding: 10px;
+        margin: 10px 0px;
+    }
+
+    #banner {
+        width: 100%;
+        height: 35vh;
+    }
+    #banner h4 {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+    #banner h2 {
+        font-size: 1.6rem;
+    }
+    #banner .per {
+        font-size: 3rem;
+    }
+
+    #banner_cart {
+        flex-wrap: wrap;
+    }
+    #banner_cart_3fr {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .fourth_box {
+        display: none;
+    }
+    .banner_3fr {
+        flex-basis: 45%;
+    }
+    #banner_cart_3fr h2 {
+        font-size: 25px;
+    }
+    #banner_cart_3fr h4 {
+        font-size: 1rem;
+    }
+    #banner_cart_3fr h2 .get {
+        font-size: 1.6rem;
+    }
+    #banner_cart_3fr h2 .free {
+        font-size: 1.3rem;
+    }
+    #banner_cart_3fr p {
+        font-size: 0.8rem;
+    }
+
+    #newsletter input {
+        width: 250px;
+    }
+    .news_box h2 {
+        font-size: 1.5rem;
+    }
+    .news_box p {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #hero h2 {
+        font-size: 2rem;
+    }
+    #hero h1 {
+        font-size: 2.5rem;
+    }
+
+    #feature {
+        justify-content: space-evenly;
+        padding: 10px 0;
+    }
+    .feature_box {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #product_one h2 {
+        font-size: 2.5rem;
+    }
+
+    #product_one {
+        margin: 50px 0;
+        padding: 0px;
+    }
+    .product_details {
+        justify-content: center;
+    }
+
+    #banner {
+        width: 100%;
+        height: 35vh;
+    }
+    #banner h4 {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+    #banner h2 {
+        font-size: 1rem;
+    }
+    #banner .per {
+        font-size: 2rem;
+    }
+    #banner .u {
+        font-size: 2.5rem;
+    }
+
+    #banner_cart {
+        padding: 10px auto;
+        justify-content: center;
+    }
+    #banner_cart .banner_box {
+        height: 60vh;
+        margin: 0 0 10px 0;
+    }
+    #banner_cart_3fr {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .banner_box h4 {
+        font-size: 1.5rem;
+    }
+    .banner_box h4 span {
+        font-size: 2rem;
+        color: #13d413;
+    }
+    .banner_box h4 .deals {
+        font-size: 1.8rem;
+        color: #22cf39;
+    }
+    .banner_box h2 {
+        font-size: 2rem;
+    }
+    .banner_box h2 .get {
+        font-size: 2.1rem;
+    }
+    .banner_box h2 .free {
+        font-size: 2rem;
+    }
+    .banner_3fr {
+        flex-basis: 90%;
+        margin: 5px;
+    }
+    #banner_cart_3fr {
+        padding: 5px;
+    }
+
+    #newsletter input {
+        width: 90%;
+    }
+    .news_box h2 {
+        font-size: 1.5rem;
+    }
+    .news_box p {
+        margin-right: 0px;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+    #newsletter {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 25vh;
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #hero h2 {
+        font-size: 1.4rem;
+    }
+    #hero h1 {
+        font-size: 1.8rem;
+    }
+    #hero p {
+        font-size: 0.8rem;
+    }
+
+    .feature_box {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 15px;
+    }
+
+    #product_one h2 {
+        font-size: 1.8rem;
+    }
+
+    #banner {
+        height: 23vh;
+    }
+    #banner h4 {
+        font-size: 1.4rem;
+        margin-top: 20px;
+    }
+    #banner h2 {
+        font-size: 1rem;
+    }
+    #banner .per {
+        font-size: 1.5rem;
+    }
+    #banner .u {
+        font-size: 2rem;
+    }
+
+    #banner_cart .banner_box {
+        height: 40vh;
+        margin: 0 0 10px 0;
+    }
+    #banner_cart .first_box {
+        background-position: 65%;
+    }
+    #banner_cart .first_box p {
+        color: #fff;
+    }
+    #banner_cart .second_box h2 .free {
+        font-size: 1.4rem;
+    }
+    #banner_cart .second_box p {
+        margin-top: 10px;
+        color: #000000;
+    }
+    .banner_box h4 {
+        font-size: 1rem;
+    }
+    .banner_box h4 span {
+        font-size: 2rem;
+        color: #13d413;
+    }
+    .banner_box h4 .deals {
+        font-size: 1.8rem;
+        color: #22cf39;
+    }
+    .banner_box h2 {
+        font-size: 1.4rem;
+    }
+    .banner_box h2 .get {
+        font-size: 1.6rem;
+    }
+    .banner_box h2 .free {
+        font-size: 1.7rem;
+    }
+
+    #newsletter {
+        height: 21vh;
+    }
+
+    .footer_margin {
+        margin-bottom: 15px;
+    }
+}
