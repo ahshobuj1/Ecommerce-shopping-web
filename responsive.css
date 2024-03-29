@@ -1,3 +1,62 @@
+@media screen and (max-width: 1020px) {
+    #feature {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .feature_box {
+        margin: 10px 25px;
+    }
+
+    .product_details {
+        justify-content: center;
+    }
+    .product_card {
+        flex-basis: 330px;
+        margin: 20px 10px;
+    }
+
+    #banner {
+        width: 100%;
+        height: 25vh;
+    }
+    #banner h4 {
+        font-size: 1.7rem;
+    }
+    #banner h2 {
+        font-size: 1.8rem;
+    }
+    #banner .per {
+        font-size: 2rem;
+    }
+    #banner .u {
+        font-size: 2rem;
+    }
+
+    #newsletter {
+        height: 17vh;
+    }
+    #newsletter input {
+        width: 230px;
+    }
+    .news_box h2 {
+        font-size: 1.1rem;
+    }
+    .news_box p {
+        margin-right: 20px;
+    }
+
+    /* *single products cart */
+
+    .all_products_group {
+        width: 55%;
+        margin: 10px auto;
+    }
+    .products_cart_details {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 799px) {
     #header {
         position: relative;
@@ -84,12 +143,12 @@
 
     #feature {
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .product_card {
         padding: 10px;
-        margin: 10px 0px;
+        margin: 20px 5px;
     }
 
     #banner {
@@ -143,11 +202,39 @@
         font-size: 1.5rem;
     }
     .news_box p {
-        margin-right: 50px;
+        margin-right: 20px;
+    }
+
+    #shop_hero {
+        height: 28vh;
+        margin-top: 100px;
+        padding: 10px;
+    }
+    #shop_hero h2 {
+        font-size: 1.5rem;
+        color: #0723db;
+    }
+    #shop_hero h4 {
+        font-size: 1.2rem;
+    }
+    /* *single products cart */
+
+    #products_carts {
+        margin-top: 100px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .all_products_group {
+        width: 70%;
+        margin: 10px auto;
+    }
+    .products_cart_details {
+        width: 70%;
+        margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 560px) {
     #hero h2 {
         font-size: 2rem;
     }
@@ -242,19 +329,35 @@
     }
     .news_box p {
         margin-right: 0px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-bottom: 10px;
     }
     #newsletter {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        height: 25vh;
+        height: 24vh;
         padding: 15px 30px;
+    }
+
+    /* *single products cart */
+
+    #products_carts {
+        margin-top: 100px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .all_products_group {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .products_cart_details {
+        width: 80%;
+        margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 440px) {
     #hero h2 {
         font-size: 1.4rem;
     }
@@ -276,20 +379,22 @@
     }
 
     #banner {
-        height: 23vh;
+        height: 25vh;
+        padding: 10px;
+        text-align: center;
     }
     #banner h4 {
-        font-size: 1.4rem;
-        margin-top: 20px;
+        font-size: 1.3rem;
     }
     #banner h2 {
         font-size: 1rem;
+        text-align: left;
     }
     #banner .per {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     #banner .u {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     #banner_cart .banner_box {
@@ -332,9 +437,42 @@
 
     #newsletter {
         height: 21vh;
+        padding: 10px;
+    }
+    #newsletter h2 {
+        font-size: 20px;
+    }
+    #newsletter p {
+        font-size: 10px;
     }
 
     .footer_margin {
         margin-bottom: 15px;
+    }
+
+    #shop_hero h2 {
+        font-size: 1.2rem;
+    }
+    #shop_hero h4 {
+        font-size: 1rem;
+    }
+
+    /* *single products cart */
+
+    #products_carts {
+        margin-top: 100px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .all_products_group {
+        width: 96%;
+        margin: 10px auto;
+    }
+    .products_cart_details {
+        width: 96%;
+        margin: 0;
+    }
+    .products_cart_details h3 {
+        font-size: 1.2rem;
     }
 }
