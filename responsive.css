@@ -1,3 +1,33 @@
+@media screen and (max-width: 1440px) {
+    .product_details {
+        justify-content: space-around;
+    }
+    .product_card {
+        flex-basis: 330px;
+        margin: 20px 5px;
+    }
+
+    #banner {
+        height: 35vh;
+    }
+    #banner h4 {
+        font-size: 1.7rem;
+    }
+    #banner h2 {
+        font-size: 1.8rem;
+    }
+    #banner .per {
+        font-size: 2rem;
+    }
+    #banner .u {
+        font-size: 2rem;
+    }
+
+    #banner_cart .banner_box {
+        height: 70vh;
+    }
+}
+
 @media screen and (max-width: 1020px) {
     #feature {
         flex-wrap: wrap;
@@ -8,7 +38,7 @@
     }
 
     .product_details {
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .product_card {
         flex-basis: 330px;
@@ -17,7 +47,7 @@
 
     #banner {
         width: 100%;
-        height: 25vh;
+        height: 30vh;
     }
     #banner h4 {
         font-size: 1.7rem;
@@ -196,7 +226,7 @@
     }
 
     #newsletter input {
-        width: 250px;
+        width: 220px;
     }
     .news_box h2 {
         font-size: 1.5rem;
@@ -231,6 +261,31 @@
     .products_cart_details {
         width: 70%;
         margin: 0 auto;
+    }
+
+    /* * blog hero */
+    #blog_hero {
+        height: 200px;
+    }
+
+    /* * blog section */
+
+    #blog .blog_box {
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+
+    #blog .blog_img {
+        width: 70%;
+    }
+
+    #blog .blog_des {
+        width: 70%;
+        padding: 10px 0 0 0;
+    }
+
+    #blog .blog_des h3 {
+        font-size: 2rem;
     }
 }
 
@@ -355,6 +410,32 @@
         width: 80%;
         margin: 0 auto;
     }
+
+    #blog_hero {
+        height: 170px;
+    }
+
+    /* * blog section */
+
+    #blog .blog_box {
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    #blog .blog_img {
+        width: 85%;
+    }
+    #blog .blog_des {
+        width: 85%;
+    }
+    #blog .blog_des h3 {
+        font-size: 1.5rem;
+    }
+    #blog .blog_des a {
+        font-size: 0.9rem;
+    }
+    .blog_box h2 {
+        left: 8%;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -474,5 +555,32 @@
     }
     .products_cart_details h3 {
         font-size: 1.2rem;
+    }
+
+    /* * blog hero */
+
+    #blog_hero {
+        height: 150px;
+    }
+
+    /* * blog section */
+
+    #blog .blog_box {
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    #blog .blog_img {
+        width: 90%;
+    }
+    #blog .blog_des {
+        width: 90%;
+    }
+    #blog .blog_des h3 {
+        font-size: 1.3rem;
+    }
+    #blog .blog_des p,
+    a {
+        font-size: 0.7rem;
+        margin-bottom: 5px;
     }
 }
