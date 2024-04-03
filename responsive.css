@@ -85,6 +85,21 @@
         width: 40%;
         margin: 0 auto;
     }
+    /* * contact hero */
+
+    #contact_hero {
+        height: 350px;
+    }
+
+    /* * contact form  */
+
+    #contact_form {
+        margin: 20px;
+        padding: 50px 20px;
+    }
+    #contact_form form {
+        width: 55%;
+    }
 }
 
 @media screen and (max-width: 799px) {
@@ -274,18 +289,68 @@
         flex-direction: column;
         padding: 50px 10px;
     }
-
     #blog .blog_img {
         width: 70%;
     }
-
     #blog .blog_des {
         width: 70%;
         padding: 10px 0 0 0;
     }
-
     #blog .blog_des h3 {
         font-size: 2rem;
+    }
+
+    /* * about us header style */
+
+    #about_hero {
+        height: 350px;
+    }
+
+    /* * about section */
+
+    #about_section {
+        padding: 30px 10px;
+    }
+    #about_section .about_section_des h2 {
+        font-size: 2rem;
+    }
+    #about_section .about_section_des p {
+        margin: 0 0 20px 0;
+        font-size: 14px;
+    }
+    #about_section .about_section_des abbr {
+        font-size: 14px;
+    }
+    /* * about app */
+
+    #about_app {
+        width: 80%;
+    }
+    #about_app video {
+        width: 100%;
+    }
+
+    /* * contact details */
+
+    #contact_details .contact_method {
+        width: 45%;
+    }
+    #contact_details .contact_method h2 {
+        font-size: 20px;
+    }
+    #contact_details .contact_map {
+        width: 50%;
+        height: 300px;
+    }
+
+    /* * contact form  */
+
+    #contact_form {
+        margin: 20px;
+        padding: 50px 10px;
+    }
+    #contact_form form {
+        width: 55%;
     }
 }
 
@@ -436,6 +501,90 @@
     .blog_box h2 {
         left: 8%;
     }
+
+    /* * about us header style */
+
+    #about_hero {
+        height: 300px;
+    }
+
+    /* * about section */
+
+    #about_section {
+        flex-direction: column;
+    }
+    #about_section .about_img {
+        width: 90%;
+    }
+    #about_section .about_section_des {
+        width: 90%;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    /* * about app */
+
+    #about_app {
+        width: 80%;
+    }
+    #about_app video {
+        width: 100%;
+    }
+    #about_app h2 {
+        font-size: 2rem;
+    }
+    #about_app h2 a {
+        font-size: 3rem;
+    }
+
+    /* * contact hero style*/
+
+    #contact_hero {
+        height: 250px;
+    }
+    #contact_hero h2 {
+        font-size: 2.5rem;
+    }
+    #contact_hero p {
+        font-size: 1rem;
+    }
+
+    /* *contact details  */
+
+    #contact_details {
+        padding: 30px 30px;
+        flex-direction: column;
+    }
+    #contact_details .contact_method {
+        width: 90%;
+    }
+    #contact_details .contact_map {
+        margin-top: 20px;
+        width: 90%;
+        height: 300px;
+    }
+
+    /* * contact form  */
+
+    #contact_form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 20px;
+        padding: 20px;
+    }
+    #contact_form form {
+        width: 100%;
+    }
+
+    /* * contact people */
+
+    #contact_form .people {
+        margin-top: 50px;
+    }
+    #contact_form .people img {
+        margin: 0 10px 0 0;
+    }
 }
 
 @media screen and (max-width: 440px) {
@@ -582,5 +731,65 @@
     a {
         font-size: 0.7rem;
         margin-bottom: 5px;
+    }
+
+    /* * about app */
+
+    #about_app {
+        width: 94%;
+    }
+    #about_app h2 a {
+        font-size: 2.5rem;
+    }
+
+    /* * contact hero style*/
+
+    #contact_hero {
+        height: 200px;
+    }
+    #contact_hero h2 {
+        font-size: 2rem;
+    }
+    #contact_hero p {
+        font-size: 0.7rem;
+    }
+
+    /* *contact details  */
+
+    #contact_details {
+        padding: 30px 15px;
+        flex-direction: column;
+    }
+    #contact_details .contact_method {
+        width: 100%;
+    }
+    #contact_details .contact_method p {
+        font-size: 0.9rem;
+    }
+    #contact_details .contact_map {
+        width: 100%;
+        height: 300px;
+    }
+
+    /* * contact form  */
+
+    #contact_form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 10px;
+        padding: 15px;
+    }
+    #contact_form form {
+        width: 100%;
+    }
+
+    /* * contact people */
+
+    #contact_form .people {
+        margin-top: 50px;
+    }
+    #contact_form .people img {
+        margin: 0 10px 0 0;
     }
 }
