@@ -3,8 +3,17 @@
         justify-content: space-around;
     }
     .product_card {
-        flex-basis: 330px;
+        flex-basis: 280px;
         margin: 20px 5px;
+    }
+    #product_one {
+        margin: 50px 0;
+        padding: 20px 5px;
+    }
+    .product_card img {
+        width: 280px;
+        height: 280px;
+        margin: 0 10px;
     }
 
     #banner {
@@ -43,6 +52,11 @@
     .product_card {
         flex-basis: 330px;
         margin: 20px 10px;
+    }
+    .product_card img {
+        width: 300px;
+        height: 300px;
+        margin: 0 15px;
     }
 
     #banner {
